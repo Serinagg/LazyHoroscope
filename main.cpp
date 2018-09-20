@@ -17,8 +17,10 @@ int main()
   cout<<"what is your last name?\n";
   cin>>lastName;
   
-cout<<"Welcome, "<<firstName[0]<<"."<<lastName[0]<<"., here is your fortune...";
+  cout<<"Welcome, "<<firstName[0]<<"."<<lastName[0]<<"., here is your fortune..."<<endl;
+  
   //tell fortune
+  cout<<"Your Lucky Number is "<<firstName.length()<<"!"<<endl;
 
   return 0;
 }
