@@ -33,13 +33,10 @@ int main()
   }
 
 if ( lastName[leng] == 'a' || lastName[leng] == 'A' || lastName[leng] == 'e' || lastName[leng] == 'E' || lastName[leng] == 'i' || lastName[leng] == 'I' || lastName[leng] == 'o' || lastName[leng] == 'O' || lastName[leng] == 'u' || lastName[leng] == 'U'){
-        cout<<"you have already met your true love.\n";
-
-} else {
-        cout<<"You haven't met your true love yet.\n";
-       
+        cout<<"you have already met your true love."<<endl;
 
 }
+
 cout<<"have a good day!\n";
 
   return 0;
